@@ -7,3 +7,4 @@ jobs:
              - name: test_job
                 run: |
                  ls
+                 cat
