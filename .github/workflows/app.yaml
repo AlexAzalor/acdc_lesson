@@ -2,8 +2,8 @@ name: Lesson for CI
 on: [push, pull_request]
 jobs: 
   test_job:
-         runs-on: windows
-         steps:
+          runs-on: windows
+          steps:
             - name: test_job
             run: |
               ls
